@@ -1,2 +1,2 @@
 # VectorStoringQuerying
-Using PostgreSQL to store and query embeddings.
+Helpful. Using PostgreSQL to store and query embeddings.
