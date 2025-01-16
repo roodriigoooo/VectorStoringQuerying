@@ -4,6 +4,7 @@ from embedding_utils import SupplyChainEmbedder
 from typing import List, Dict, Any
 import json
 import logging
+import numpy as np
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -72,6 +73,10 @@ class MakerspaceVectorDB:
                         cache_key=f"{doc.metadata['title']}_{doc.metadata.get('chunk_type', 'unknown')}"
                     )
 
+                    # debugging
+                    if isinstance(embedding, np.ndarray):
+                        embedding = embedding.tolist()
+
                     batch_data.append((
                         doc.metadata.get('title', ''),
                         doc.page_content,
@@ -84,8 +89,9 @@ class MakerspaceVectorDB:
                 execute_values(cur, """
                     INSERT INTO makerspace_documents 
                     (title, content, chunk_type, embedding, metadata)
-                    VALUES %s
-                """, batch_data)
+                    VALUES %s::vector
+                """, [(title, content, chunk_type, f'{{{",".join(map(str, embedding))}}}', metadata)
+                      for title, content, chunk_type, embedding, metadata in batch_data])
 
                 conn.commit()
                 logger.info(f"Processed batch of {len(batch)} documents")
@@ -109,9 +115,13 @@ class MakerspaceVectorDB:
             # Generate query embedding
             query_embedding = self.embedder.generate_embedding(query)
 
+            #debugging
+            if isinstance(query_embedding, np.ndarray):
+                query_embedding = query_embedding.tolist()
+
             # Build query
             query_parts = [
-                "SELECT title, content, chunk_type, 1 - (embedding <=> %s) AS similarity",
+                "SELECT title, content, chunk_type, 1 - (embedding <=> %s::vector) AS similarity",
                 "FROM makerspace_documents"
             ]
             params = [query_embedding]
