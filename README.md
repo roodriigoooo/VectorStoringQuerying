@@ -29,6 +29,24 @@ docker run -d \
   -p 5432:5432 \
   ankane/pgvector
 ```
+or, on windows powershell:
+```powershell
+docker run -d `
+  --name postgres-vector `
+  -e "POSTGRES_PASSWORD=postgres" `
+  -p 5432:5432 `
+  ankane/pgvector
+```
+then, create the vectordb database (pgSQL only creates a default postgres database):
+```powershell
+docker exec -it postgres-vector psql -U postgres
+
+#once inside PostgreSQL prompt:
+CREATE DATABASE vectordb;
+\q
+```
+and now you can run the code:
+
 ```python
 # Initialize database
 vector_db = MakerspaceVectorDB(db_params)
