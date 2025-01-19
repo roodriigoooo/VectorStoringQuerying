@@ -2,9 +2,8 @@
 A vector-based search and storing system using PostgreSQL. 
 
 ### embedding generation
-- Uses PyTorch with a GTE base model for embedding generation. 
-- It allows for far more flexibility when preparing the text for embedding and for pooling strategies which could be adjusted for our use case. 
-- The vectors representing semantic content are currently set to 768 dimensions.
+- Uses PyTorch for embedding generation, which allows for far more flexibility when preparing the text for embedding and for pooling strategies which could be customized. 
+- The vectors currently set to 768 dimensions.
 
 Example output from `embedding_utils.py`:
 ```commandline
@@ -15,10 +14,8 @@ This example is not a realistic use case, it is just for a demo. Instead of proc
 
 ### postgreSQL integration
 - The system uses pgvector for vector storage and search.
-- Currently using cosine distance.
 - Tables are created for storing documents and their embeddings, with filtered search capabilities which can be improved significantly. 
 
-**Need to create a Dockerfile and docker-compose for easier deployment and testing**
 
 ### testing
 ```bash
