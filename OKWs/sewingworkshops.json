@@ -1,0 +1,166 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Sew & Tell Studio",
+    "description": "A space offering sewing machines, materials, and workshops for creating clothing and textiles.",
+    "contact": "hello@sewandtellstudio.com",
+    "keywords": ["sewing", "textile arts", "clothing design", "workshops", "quilting", "fashion", "crafts"],
+    "contributors": [
+        "Laura Kim",
+        "Michael Lee",
+        "Emily Davis"
+    ],
+    "version": "1.3",
+    "development-stage": "Production",
+    "license": "MIT",
+    "licensor": "Sew & Tell Studio",
+    "documentation-home": "https://sewandtellstudio.com/docs",
+    "archive-download": "https://sewandtellstudio.com/downloads/patterns.zip",
+    "inventory-atoms": [
+        {
+            "identifier": "Fabric",
+            "description": "Various types of fabric for sewing projects.",
+            "link": "https://sewandtellstudio.com/inventory/fabric"
+        },
+        {
+            "identifier": "Thread",
+            "description": "Assorted threads in different colors and materials.",
+            "link": "https://sewandtellstudio.com/inventory/thread"
+        },
+        {
+            "identifier": "Buttons and Zippers",
+            "description": "Various closures for garments.",
+            "link": "https://sewandtellstudio.com/inventory/buttons-zippers"
+        },
+        {
+            "identifier": "Patterns",
+            "description": "Design templates for sewing projects.",
+            "link": "https://sewandtellstudio.com/inventory/patterns"
+        },
+        {
+            "identifier": "Notions",
+            "description": "Sewing accessories like pins, needles, and tape measures.",
+            "link": "https://sewandtellstudio.com/inventory/notions"
+        },
+        {
+            "identifier": "Embroidery Floss",
+            "description": "Colored threads for embroidery.",
+            "link": "https://sewandtellstudio.com/inventory/embroidery-floss"
+        },
+        {
+            "identifier": "Quilting Supplies",
+            "description": "Materials and tools for quilting projects.",
+            "link": "https://sewandtellstudio.com/inventory/quilting-supplies"
+        }
+    ],
+    "product-atoms": [
+        {
+            "identifier": "Reusable Shopping Bags",
+            "description": "Eco-friendly bags made from recycled materials.",
+            "link": "https://sewandtellstudio.com/products/shopping-bags"
+        },
+        {
+            "identifier": "Custom Apparel",
+            "description": "Made-to-measure clothing items.",
+            "link": "https://sewandtellstudio.com/products/custom-apparel"
+        },
+        {
+            "identifier": "Textile Art Pieces",
+            "description": "Unique decorative textile creations.",
+            "link": "https://sewandtellstudio.com/products/textile-art"
+        },
+        {
+            "identifier": "Quilts",
+            "description": "Handcrafted quilts in various designs.",
+            "link": "https://sewandtellstudio.com/products/quilts"
+        },
+        {
+            "identifier": "Face Masks",
+            "description": "Reusable fabric face masks.",
+            "link": "https://sewandtellstudio.com/products/face-masks"
+        },
+        {
+            "identifier": "Cushion Covers",
+            "description": "Decorative covers for cushions and pillows.",
+            "link": "https://sewandtellstudio.com/products/cushion-covers"
+        }
+    ],
+    "tool-list-atoms": [
+        {
+            "identifier": "Sewing Machines",
+            "description": "Machines for stitching fabric together.",
+            "link": "https://sewandtellstudio.com/tools/sewing-machines"
+        },
+        {
+            "identifier": "Embroidery Machines",
+            "description": "Machines for decorative needlework.",
+            "link": "https://sewandtellstudio.com/tools/embroidery-machines"
+        },
+        {
+            "identifier": "Overlock Machines",
+            "description": "Machines for edging and seaming fabric.",
+            "link": "https://sewandtellstudio.com/tools/overlock-machines"
+        },
+        {
+            "identifier": "Cutting Tables",
+            "description": "Large surfaces for fabric cutting.",
+            "link": "https://sewandtellstudio.com/tools/cutting-tables"
+        },
+        {
+            "identifier": "Dress Forms",
+            "description": "Mannequins for fitting and designing garments.",
+            "link": "https://sewandtellstudio.com/tools/dress-forms"
+        },
+        {
+            "identifier": "Ironing Stations",
+            "description": "Professional equipment for pressing fabrics.",
+            "link": "https://sewandtellstudio.com/tools/ironing-stations"
+        },
+        {
+            "identifier": "Knitting Machines",
+            "description": "Machines for automated knitting.",
+            "link": "https://sewandtellstudio.com/tools/knitting-machines"
+        }
+    ],
+    "processes": [
+        {
+            "identifier": "Pattern Making",
+            "description": "Designing patterns for sewing projects.",
+            "link": "https://sewandtellstudio.com/processes/pattern-making"
+        },
+        {
+            "identifier": "Embroidery",
+            "description": "Decorative needlework on textiles.",
+            "link": "https://sewandtellstudio.com/processes/embroidery"
+        },
+        {
+            "identifier": "Sewing Workshops",
+            "description": "Classes teaching sewing techniques.",
+            "link": "https://sewandtellstudio.com/processes/sewing-workshops"
+        },
+        {
+            "identifier": "Tailoring",
+            "description": "Custom fitting and alterations of garments.",
+            "link": "https://sewandtellstudio.com/processes/tailoring"
+        },
+        {
+            "identifier": "Quilting",
+            "description": "Craft of sewing layers of fabric together.",
+            "link": "https://sewandtellstudio.com/processes/quilting"
+        },
+        {
+            "identifier": "Fabric Dyeing",
+            "description": "Coloring fabrics using various dyeing techniques.",
+            "link": "https://sewandtellstudio.com/processes/fabric-dyeing"
+        },
+        {
+            "identifier": "Weaving",
+            "description": "Creating textiles by interlacing threads.",
+            "link": "https://sewandtellstudio.com/processes/weaving"
+        },
+        {
+            "identifier": "Upcycling",
+            "description": "Transforming old materials into new products.",
+            "link": "https://sewandtellstudio.com/processes/upcycling"
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Downtown Makerspace",
+    "description": "A collaborative workshop equipped with tools and materials for woodworking, metalworking, and 3D printing. Open to hobbyists and professionals alike.",
+    "contact": "contact@downtownmakerspace.org",
+    "keywords": ["makerspace", "woodworking", "metalworking", "3D printing", "collaboration", "electronics", "crafts"],
+    "contributors": [
+        "Jane Smith",
+        "John Doe",
+        "Michael Lee"
+    ],
+    "version": "1.1",
+    "development-stage": "Production",
+    "license": "CC-BY-4.0",
+    "licensor": "Downtown Makerspace Inc.",
+    "documentation-home": "https://downtownmakerspace.org/docs",
+    "archive-download": "https://downtownmakerspace.org/downloads/resources.zip",
+    "inventory-atoms": [
+        {
+            "identifier": "3D Printer Filament",
+            "description": "Various types of filament for 3D printing.",
+            "link": "https://downtownmakerspace.org/inventory/filament"
+        },
+        {
+            "identifier": "Metal Sheets",
+            "description": "Assorted metal sheets for fabrication projects.",
+            "link": "https://downtownmakerspace.org/inventory/metal-sheets"
+        },
+        {
+            "identifier": "Wood Planks",
+            "description": "Different types of wood for carpentry.",
+            "link": "https://downtownmakerspace.org/inventory/wood-planks"
+        },
+        {
+            "identifier": "Electronic Components",
+            "description": "Resistors, capacitors, microcontrollers, and more.",
+            "link": "https://downtownmakerspace.org/inventory/electronics"
+        },
+        {
+            "identifier": "Fabric and Textiles",
+            "description": "Materials for sewing and crafting projects.",
+            "link": "https://downtownmakerspace.org/inventory/fabrics"
+        },
+        {
+            "identifier": "Paints and Finishes",
+            "description": "Various paints, stains, and finishing products.",
+            "link": "https://downtownmakerspace.org/inventory/paints"
+        }
+    ],
+    "product-atoms": [
+        {
+            "identifier": "Custom Engraved Keychains",
+            "description": "Keychains made using laser cutters.",
+            "link": "https://downtownmakerspace.org/products/keychains"
+        },
+        {
+            "identifier": "3D Printed Prototypes",
+            "description": "Rapid prototyping services using 3D printers.",
+            "link": "https://downtownmakerspace.org/products/3d-prototypes"
+        },
+        {
+            "identifier": "Handcrafted Furniture",
+            "description": "Unique furniture pieces made by members.",
+            "link": "https://downtownmakerspace.org/products/furniture"
+        },
+        {
+            "identifier": "Electronic Gadgets",
+            "description": "Custom-built electronic devices and kits.",
+            "link": "https://downtownmakerspace.org/products/electronics"
+        }
+    ],
+    "tool-list-atoms": [
+        {
+            "identifier": "Laser Cutter",
+            "description": "High-precision laser cutter for various materials.",
+            "link": "https://downtownmakerspace.org/tools/laser-cutter"
+        },
+        {
+            "identifier": "CNC Machine",
+            "description": "Computer-controlled machine for cutting and milling.",
+            "link": "https://downtownmakerspace.org/tools/cnc-machine"
+        },
+        {
+            "identifier": "Woodworking Tools",
+            "description": "Saws, sanders, drills, and other carpentry tools.",
+            "link": "https://downtownmakerspace.org/tools/woodworking"
+        },
+        {
+            "identifier": "Metalworking Tools",
+            "description": "Welders, grinders, and metal fabrication equipment.",
+            "link": "https://downtownmakerspace.org/tools/metalworking"
+        },
+        {
+            "identifier": "Electronics Lab",
+            "description": "Soldering stations and testing equipment.",
+            "link": "https://downtownmakerspace.org/tools/electronics-lab"
+        },
+        {
+            "identifier": "Sewing Machines",
+            "description": "Equipment for textile and fashion projects.",
+            "link": "https://downtownmakerspace.org/tools/sewing-machines"
+        }
+    ],
+    "processes": [
+        {
+            "identifier": "Laser Cutting",
+            "description": "Precision cutting of materials using laser technology.",
+            "link": "https://downtownmakerspace.org/processes/laser-cutting"
+        },
+        {
+            "identifier": "CNC Machining",
+            "description": "Automated control of machining tools via computers.",
+            "link": "https://downtownmakerspace.org/processes/cnc-machining"
+        },
+        {
+            "identifier": "3D Printing",
+            "description": "Creating three-dimensional objects from digital files.",
+            "link": "https://downtownmakerspace.org/processes/3d-printing"
+        },
+        {
+            "identifier": "Woodworking",
+            "description": "Crafting objects out of wood using various tools.",
+            "link": "https://downtownmakerspace.org/processes/woodworking"
+        },
+        {
+            "identifier": "Metal Fabrication",
+            "description": "Shaping and assembling metal structures.",
+            "link": "https://downtownmakerspace.org/processes/metal-fabrication"
+        },
+        {
+            "identifier": "Electronics Prototyping",
+            "description": "Designing and building electronic circuits.",
+            "link": "https://downtownmakerspace.org/processes/electronics-prototyping"
+        },
+        {
+            "identifier": "Workshops and Classes",
+            "description": "Educational sessions on various making skills.",
+            "link": "https://downtownmakerspace.org/processes/workshops"
+        }
+    ]
+}

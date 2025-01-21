@@ -1,0 +1,116 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "SkyGrow Hydroponics",
+    "description": "An urban farm using hydroponic systems to grow vegetables and herbs year-round.",
+    "contact": "info@skygrowhydroponics.com",
+    "keywords": ["hydroponics", "urban farming", "sustainability", "fresh produce", "organic", "aquaponics"],
+    "contributors": [
+        "Alice Green",
+        "Bob Brown",
+        "Chloe White"
+    ],
+    "version": "2.2",
+    "development-stage": "Production",
+    "license": "CC-BY-SA-4.0",
+    "licensor": "SkyGrow Hydroponics LLC",
+    "documentation-home": "https://skygrowhydroponics.com/docs",
+    "archive-download": "https://skygrowhydroponics.com/downloads/manuals.zip",
+    "inventory-atoms": [
+        {
+            "identifier": "Nutrient Solutions",
+            "description": "Essential nutrients for plant growth in water.",
+            "link": "https://skygrowhydroponics.com/inventory/nutrients"
+        },
+        {
+            "identifier": "LED Grow Lights",
+            "description": "Energy-efficient lights for indoor plant growth.",
+            "link": "https://skygrowhydroponics.com/inventory/led-grow-lights"
+        },
+        {
+            "identifier": "Growth Medium",
+            "description": "Materials like Rockwool and coconut coir for root support.",
+            "link": "https://skygrowhydroponics.com/inventory/growth-medium"
+        },
+        {
+            "identifier": "pH Testing Kits",
+            "description": "Tools for measuring and adjusting nutrient solution pH levels.",
+            "link": "https://skygrowhydroponics.com/inventory/ph-testing-kits"
+        },
+        {
+            "identifier": "Water Pumps",
+            "description": "Pumps for circulating nutrient solutions.",
+            "link": "https://skygrowhydroponics.com/inventory/water-pumps"
+        }
+    ],
+    "product-atoms": [
+        {
+            "identifier": "Leafy Greens",
+            "description": "Fresh lettuce, spinach, and kale.",
+            "link": "https://skygrowhydroponics.com/products/leafy-greens"
+        },
+        {
+            "identifier": "Herb Selection",
+            "description": "Basil, mint, parsley, and other culinary herbs.",
+            "link": "https://skygrowhydroponics.com/products/herbs"
+        },
+        {
+            "identifier": "Microgreens",
+            "description": "Nutrient-rich microgreens for salads and garnishes.",
+            "link": "https://skygrowhydroponics.com/products/microgreens"
+        },
+        {
+            "identifier": "Hydroponic Starter Kits",
+            "description": "Kits for beginners to start their own hydroponic garden.",
+            "link": "https://skygrowhydroponics.com/products/starter-kits"
+        }
+    ],
+    "tool-list-atoms": [
+        {
+            "identifier": "Hydroponic Systems",
+            "description": "Equipment for soilless cultivation.",
+            "link": "https://skygrowhydroponics.com/tools/hydroponic-systems"
+        },
+        {
+            "identifier": "Nutrient Mixers",
+            "description": "Devices to mix and balance nutrient solutions.",
+            "link": "https://skygrowhydroponics.com/tools/nutrient-mixers"
+        },
+        {
+            "identifier": "Environmental Sensors",
+            "description": "Sensors to monitor humidity, temperature, and light.",
+            "link": "https://skygrowhydroponics.com/tools/environmental-sensors"
+        },
+        {
+            "identifier": "Automated Control Systems",
+            "description": "Systems to automate feeding, lighting, and climate control.",
+            "link": "https://skygrowhydroponics.com/tools/automation"
+        }
+    ],
+    "processes": [
+        {
+            "identifier": "Soilless Cultivation",
+            "description": "Growing plants without soil using nutrient solutions.",
+            "link": "https://skygrowhydroponics.com/processes/soilless-cultivation"
+        },
+        {
+            "identifier": "Vertical Farming",
+            "description": "Stacking plant beds vertically to save space.",
+            "link": "https://skygrowhydroponics.com/processes/vertical-farming"
+        },
+        {
+            "identifier": "Aquaponics",
+            "description": "Integrated fish and plant farming system.",
+            "link": "https://skygrowhydroponics.com/processes/aquaponics"
+        },
+        {
+            "identifier": "Nutrient Management",
+            "description": "Balancing nutrient solutions for optimal growth.",
+            "link": "https://skygrowhydroponics.com/processes/nutrient-management"
+        },
+        {
+            "identifier": "Climate Control",
+            "description": "Managing temperature and humidity for plant health.",
+            "link": "https://skygrowhydroponics.com/processes/climate-control"
+        }
+    ]
+}

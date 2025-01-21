@@ -1,0 +1,191 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Bread & Butter Bakery",
+    "description": "A bakery specializing in sourdough bread and handcrafted pastries using locally sourced ingredients.",
+    "contact": "bakery@breadandbutter.com",
+    "keywords": ["bakery", "artisanal bread", "pastries", "local ingredients", "organic", "gluten-free", "seasonal"],
+    "contributors": [
+        "Rodrigo Sastre",
+        "Liam Johnson",
+        "Sophia Martinez"
+    ],
+    "version": "2.1",
+    "development-stage": "Production",
+    "license": "CC-BY-NC-4.0",
+    "licensor": "Bread & Butter Bakery",
+    "documentation-home": "https://breadandbutter.com/docs",
+    "archive-download": "https://breadandbutter.com/downloads/recipes.zip",
+    "inventory-atoms": [
+        {
+            "identifier": "Organic Flour",
+            "description": "Flour milled from organically grown grains.",
+            "link": "https://breadandbutter.com/inventory/organic-flour"
+        },
+        {
+            "identifier": "Fresh Yeast",
+            "description": "Active yeast for fermentation.",
+            "link": "https://breadandbutter.com/inventory/fresh-yeast"
+        },
+        {
+            "identifier": "Butter",
+            "description": "Locally sourced dairy butter.",
+            "link": "https://breadandbutter.com/inventory/butter"
+        },
+        {
+            "identifier": "Organic Sugar",
+            "description": "Unrefined sugar from organic sources.",
+            "link": "https://breadandbutter.com/inventory/organic-sugar"
+        },
+        {
+            "identifier": "Seasonal Fruits",
+            "description": "Fresh fruits sourced from local farms.",
+            "link": "https://breadandbutter.com/inventory/seasonal-fruits"
+        },
+        {
+            "identifier": "Free-range Eggs",
+            "description": "Eggs from free-range chickens.",
+            "link": "https://breadandbutter.com/inventory/free-range-eggs"
+        },
+        {
+            "identifier": "Chocolate",
+            "description": "High-quality chocolate for baking.",
+            "link": "https://breadandbutter.com/inventory/chocolate"
+        },
+        {
+            "identifier": "Nuts and Seeds",
+            "description": "Assorted nuts and seeds for pastries.",
+            "link": "https://breadandbutter.com/inventory/nuts-seeds"
+        },
+        {
+            "identifier": "Spices",
+            "description": "Organic spices for flavoring.",
+            "link": "https://breadandbutter.com/inventory/spices"
+        },
+        {
+            "identifier": "Gluten-Free Flour",
+            "description": "Alternative flours for gluten-free baking.",
+            "link": "https://breadandbutter.com/inventory/gluten-free-flour"
+        }
+    ],
+    "product-atoms": [
+        {
+            "identifier": "Sourdough Loaves",
+            "description": "Bread made through natural fermentation.",
+            "link": "https://breadandbutter.com/products/sourdough-loaves"
+        },
+        {
+            "identifier": "Croissants",
+            "description": "Buttery, flaky viennoiserie pastry.",
+            "link": "https://breadandbutter.com/products/croissants"
+        },
+        {
+            "identifier": "Artisan Pastries",
+            "description": "Handcrafted pastries with seasonal fillings.",
+            "link": "https://breadandbutter.com/products/pastries"
+        },
+        {
+            "identifier": "Gluten-Free Bread",
+            "description": "Bread made without gluten-containing ingredients.",
+            "link": "https://breadandbutter.com/products/gluten-free-bread"
+        },
+        {
+            "identifier": "Custom Cakes",
+            "description": "Cakes made to order for special occasions.",
+            "link": "https://breadandbutter.com/products/custom-cakes"
+        },
+        {
+            "identifier": "Muffins and Scones",
+            "description": "Assorted muffins and scones baked daily.",
+            "link": "https://breadandbutter.com/products/muffins-scones"
+        },
+        {
+            "identifier": "Seasonal Pies",
+            "description": "Pies made with fresh, seasonal fruits.",
+            "link": "https://breadandbutter.com/products/seasonal-pies"
+        }
+    ],
+    "tool-list-atoms": [
+        {
+            "identifier": "Stone Oven",
+            "description": "Traditional stone oven for baking.",
+            "link": "https://breadandbutter.com/tools/stone-oven"
+        },
+        {
+            "identifier": "Industrial Mixers",
+            "description": "Heavy-duty mixers for dough preparation.",
+            "link": "https://breadandbutter.com/tools/industrial-mixers"
+        },
+        {
+            "identifier": "Proofing Cabinets",
+            "description": "Controlled environment for dough fermentation.",
+            "link": "https://breadandbutter.com/tools/proofing-cabinets"
+        },
+        {
+            "identifier": "Dough Sheeters",
+            "description": "Equipment for rolling dough to uniform thickness.",
+            "link": "https://breadandbutter.com/tools/dough-sheeters"
+        },
+        {
+            "identifier": "Pastry Cutters",
+            "description": "Tools for shaping pastries and cookies.",
+            "link": "https://breadandbutter.com/tools/pastry-cutters"
+        },
+        {
+            "identifier": "Decorating Tools",
+            "description": "Utensils for cake and pastry decoration.",
+            "link": "https://breadandbutter.com/tools/decorating-tools"
+        },
+        {
+            "identifier": "Baking Pans and Molds",
+            "description": "Various pans for baking different products.",
+            "link": "https://breadandbutter.com/tools/baking-pans"
+        }
+    ],
+    "processes": [
+        {
+            "identifier": "Baking",
+            "description": "The process of cooking food by dry heat.",
+            "link": "https://breadandbutter.com/processes/baking"
+        },
+        {
+            "identifier": "Fermentation",
+            "description": "The chemical breakdown of a substance by microorganisms.",
+            "link": "https://breadandbutter.com/processes/fermentation"
+        },
+        {
+            "identifier": "Dough Kneading",
+            "description": "Working dough to develop gluten structure.",
+            "link": "https://breadandbutter.com/processes/kneading"
+        },
+        {
+            "identifier": "Proofing",
+            "description": "Allowing dough to rise before baking.",
+            "link": "https://breadandbutter.com/processes/proofing"
+        },
+        {
+            "identifier": "Pastry Lamination",
+            "description": "Folding butter into dough to create layers.",
+            "link": "https://breadandbutter.com/processes/lamination"
+        },
+        {
+            "identifier": "Recipe Development",
+            "description": "Creating new bakery recipes and products.",
+            "link": "https://breadandbutter.com/processes/recipe-development"
+        },
+        {
+            "identifier": "Quality Control",
+            "description": "Ensuring products meet quality standards.",
+            "link": "https://breadandbutter.com/processes/quality-control"
+        },
+        {
+            "identifier": "Artisan Decorating",
+            "description": "Handcrafting decorative elements on pastries.",
+            "link": "https://breadandbutter.com/processes/artisan-decorating"
+        },
+        {
+            "identifier": "Packaging",
+            "description": "Wrapping and packaging baked goods for sale.",
+            "link": "https://breadandbutter.com/processes/packaging"
+        }
+    ]
+}

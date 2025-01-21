@@ -1,0 +1,131 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "EcoEnergy Solutions",
+    "description": "Provides solar panel installation and wind turbine services for residential and commercial clients.",
+    "contact": "contact@ecoenergysolutions.com",
+    "keywords": ["renewable energy", "solar panels", "wind turbines", "sustainability", "energy storage", "electric vehicles"],
+    "contributors": [
+        "Carlos Diaz",
+        "Emma Wang",
+        "Liam Johnson"
+    ],
+    "version": "3.6",
+    "development-stage": "Production",
+    "license": "GPL-3.0",
+    "licensor": "EcoEnergy Solutions Ltd.",
+    "documentation-home": "https://ecoenergysolutions.com/docs",
+    "archive-download": "https://ecoenergysolutions.com/downloads/installation-guides.zip",
+    "inventory-atoms": [
+        {
+            "identifier": "Solar Panels",
+            "description": "Photovoltaic panels for harnessing solar energy.",
+            "link": "https://ecoenergysolutions.com/inventory/solar-panels"
+        },
+        {
+            "identifier": "Wind Turbines",
+            "description": "Equipment for generating electricity from wind.",
+            "link": "https://ecoenergysolutions.com/inventory/wind-turbines"
+        },
+        {
+            "identifier": "Energy Storage Batteries",
+            "description": "High-capacity batteries for storing renewable energy.",
+            "link": "https://ecoenergysolutions.com/inventory/energy-storage-batteries"
+        },
+        {
+            "identifier": "Inverters",
+            "description": "Devices that convert DC power to AC power.",
+            "link": "https://ecoenergysolutions.com/inventory/inverters"
+        },
+        {
+            "identifier": "Charge Controllers",
+            "description": "Regulate the flow of energy from solar panels to batteries.",
+            "link": "https://ecoenergysolutions.com/inventory/charge-controllers"
+        },
+        {
+            "identifier": "EV Charging Stations",
+            "description": "Electric vehicle charging units for residential and commercial use.",
+            "link": "https://ecoenergysolutions.com/inventory/ev-charging-stations"
+        }
+    ],
+    "product-atoms": [
+        {
+            "identifier": "Installed Solar Systems",
+            "description": "Complete solar energy systems installed on-site.",
+            "link": "https://ecoenergysolutions.com/products/solar-systems"
+        },
+        {
+            "identifier": "Wind Energy Systems",
+            "description": "Customized wind turbine installations for energy generation.",
+            "link": "https://ecoenergysolutions.com/products/wind-energy-systems"
+        },
+        {
+            "identifier": "Hybrid Energy Systems",
+            "description": "Combination of solar and wind energy solutions.",
+            "link": "https://ecoenergysolutions.com/products/hybrid-systems"
+        },
+        {
+            "identifier": "Energy Storage Solutions",
+            "description": "Battery systems for storing excess energy.",
+            "link": "https://ecoenergysolutions.com/products/energy-storage"
+        },
+        {
+            "identifier": "EV Charging Solutions",
+            "description": "Installation of electric vehicle charging stations.",
+            "link": "https://ecoenergysolutions.com/products/ev-charging"
+        }
+    ],
+    "tool-list-atoms": [
+        {
+            "identifier": "Energy Auditing Tools",
+            "description": "Tools for assessing energy efficiency.",
+            "link": "https://ecoenergysolutions.com/tools/auditing-tools"
+        },
+        {
+            "identifier": "Installation Equipment",
+            "description": "Tools and machinery for installing energy systems.",
+            "link": "https://ecoenergysolutions.com/tools/installation-equipment"
+        },
+        {
+            "identifier": "Site Assessment Software",
+            "description": "Software for evaluating site suitability for renewable installations.",
+            "link": "https://ecoenergysolutions.com/tools/site-assessment-software"
+        },
+        {
+            "identifier": "Maintenance Toolkits",
+            "description": "Kits for routine maintenance of energy systems.",
+            "link": "https://ecoenergysolutions.com/tools/maintenance-toolkits"
+        }
+    ],
+    "processes": [
+        {
+            "identifier": "Energy Auditing",
+            "description": "Assessing energy needs and efficiency.",
+            "link": "https://ecoenergysolutions.com/processes/energy-auditing"
+        },
+        {
+            "identifier": "Installation Services",
+            "description": "Professional installation of renewable energy systems.",
+            "link": "https://ecoenergysolutions.com/processes/installation-services"
+        },
+        {
+            "identifier": "Maintenance Services",
+            "description": "Regular upkeep and repair of energy installations.",
+            "link": "https://ecoenergysolutions.com/processes/maintenance-services"
+        },
+        {
+            "identifier": "Custom System Design",
+            "description": "Tailored renewable energy solutions for specific needs.",
+            "link": "https://ecoenergysolutions.com/processes/custom-design"
+        },
+        {
+            "identifier": "Energy Consultation",
+            "description": "Expert advice on energy efficiency and sustainability.",
+            "link": "https://ecoenergysolutions.com/processes/consultation"
+        },
+        {
+            "identifier": "Grid Integration Services",
+            "description": "Connecting renewable systems to the local power grid.",
+            "link": "https://ecoenergysolutions.com/processes/grid-integration"
+        }
+    ]
+}
