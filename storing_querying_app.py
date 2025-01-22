@@ -86,12 +86,16 @@ class MakerspaceVectorDB:
                     ))
 
                 # insert batch
-                execute_values(cur, """
+                execute_values(
+                    cur,
+                    """
                     INSERT INTO makerspace_documents 
                     (title, content, chunk_type, embedding, metadata)
-                    VALUES %s::vector
-                """, [(title, content, chunk_type, f'{{{",".join(map(str, embedding))}}}', metadata)
-                      for title, content, chunk_type, embedding, metadata in batch_data])
+                    VALUES %s
+                    """,
+                    batch_data,
+                    template="(%s, %s, %s, %s::vector, %s)"
+                )
 
                 conn.commit()
                 logger.info(f"Processed batch of {len(batch)} documents")
