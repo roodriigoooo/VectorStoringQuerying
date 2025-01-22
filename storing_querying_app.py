@@ -192,7 +192,7 @@ if __name__ == "__main__":
     vector_db.store_documents(documents)
 
     # Example search
-    query = "Looking for a makerspace with woodworking and fabric capabilities"
+    query = "woodworking and fabric capabilities"
     results = vector_db.search(
         query,
         limit=5,
