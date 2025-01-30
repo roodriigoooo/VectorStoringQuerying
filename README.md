@@ -37,10 +37,6 @@ docker run -d `
 then, create the vectordb database (pgSQL only creates a default postgres database):
 ```powershell
 docker exec -it postgres-vector psql -U postgres
-
-#once inside PostgreSQL prompt:
-CREATE DATABASE vectordb;
-\q
 ```
 and now you can run the code:
 
@@ -59,4 +55,37 @@ results = vector_db.search(
     limit=5,
     filters={'chunk_type': 'inventory-atoms'}
 )
+```
+
+to verify created databases, tables and their contents:
+
+```bash
+# get into the running PostgreSQL container
+docker exec -it postgres-vector bash
+
+psql -U postgres
+
+#list all databases
+\l
+```
+you should see vectordb in the list. 
+
+to inspect the vectordb structure:
+
+```bash
+\c vectordb
+
+#list all tables
+\dt
+
+#view table structure
+\d makerspace_documents
+
+# view first 10 entries
+SELECT * FROM makerspace_documents LIMIT 10;
+
+# check embeddings (first 3 dimensions)
+SELECT id, title, chunk_type, embedding[1:3] AS partial_embedding 
+FROM makerspace_documents 
+LIMIT 5;
 ```
