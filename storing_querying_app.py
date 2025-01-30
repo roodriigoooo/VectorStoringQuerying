@@ -16,7 +16,29 @@ class MakerspaceVectorDB:
         self.embedder = SupplyChainEmbedder()
 
     def initialize_db(self):
-        """Initialize database tables and extensions"""
+        """Initialize database, create if it does not exist, then create tables and extensions"""
+        try:
+            temp_db_params = self.db_params.copy()
+            temp_db_params["dbname"] = "postgres"
+            conn = psycopg2.connect(**temp_db_params)
+            conn.autocommit = True # CREATE DATABASE can't run in a transaction
+            cur = conn.cursor()
+
+            db_name = self.db_params["dbname"]
+            cur.execute("SELECT 1 FROM pg_database WHERE datname = %s;", (db_name,))
+            exists = cur.fetchone()
+
+            if not exists:
+                cur.execute(f"CREATE DATABASE {db_name};")
+                logger.info(f"Created database {db_name}")
+
+            cur.close()
+            conn.close()
+
+        except Exception as e:
+            logger.error(f"Error ensuring database exists: {e}")
+            raise
+
         conn = psycopg2.connect(**self.db_params)
         cur = conn.cursor()
 
